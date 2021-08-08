@@ -1,0 +1,186 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	background-color:#F9E8E8;
+	
+}
+
+.mainHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 24px;
+	background-color: #FDF9F9;
+	color: black;
+	height: 120px;
+	
+}
+.siteLogo {
+	display: flex;
+	align-items: center;	
+}
+
+.logoImage {
+	width: 68px;
+	height: auto;
+	border-radius: 16px;
+	border: 1.5px solid #4CA66F;
+	margin: 0 16px 0 0;
+}
+
+
+.mainNavigation {
+	display: flex;
+	align-items: center;
+}
+
+.mainNavItem {
+	padding: 0 16px;
+	color:black;
+}
+.mainNavItem a {
+	color: black;
+	text-decoration: none;
+	
+}
+.mainNavItem a:hover {
+	font-size:88px;
+    font-size-adjust: 20px;
+}
+
+.content h1 {
+	font-size: 44px;
+	text-align: center;
+}
+
+.mainContent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 80px 0;
+}
+
+.uxnonprofitContent, .earthneticContent, .ftcContent {
+	display: flex;
+	flex-direction: column;
+	margin: 0 16px;
+	width: 33%;
+	padding: 24px;
+	background-color: white;
+	border: 2px solid #AED16D;
+	/* box shadow values - offset-x | offset-y | blur-radius | spread-radius | rgb color and transparency */
+	box-shadow: -3px 3px 8px 3px rgba(188, 188, 188, .7);
+}
+
+.uxnonprofitContent button{
+	background-color: 77BC8A;
+	height: 45px;
+	border: #AED16D;
+}
+
+.uxnonprofitContent button:hover{
+	background-color: #AED16D;
+    border: 1px solid #4CA66F;
+    color: black;
+}
+
+.earthneticContent button {
+	background-color: 77BC8A;
+	height: 45px;
+	border: #AED16D;
+}
+
+.earthneticContent button:hover{
+	background-color: #AED16D;
+    border: 1px solid #4CA66F;
+    color: black;
+}
+
+.ftcContent button {
+	background-color: 77BC8A;
+	height: 45px;
+	border: #AED16D;
+}
+
+.ftcContent button:hover{
+	background-color: #AED16D;
+    border: 1px solid #4CA66F;
+    color: black;
+}
+
+.mainContent h2 {
+	font-size: 40px;
+	margin-bottom: 4px;
+}
+
+
+.cardImage {
+	max-width: 200px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.Aboutme h1 {
+	margin-top: 250px;
+	font-size: 50px;
+	text-align: center;
+	
+}
+
+.Aboutme {
+	margin: 100px 100px 100px 100px;
+}
+
+.aboutmeContent {
+		display: flex;
+		flex-direction: column;
+		width: 33%;
+		padding: 24px;
+		background-color: white;
+		border: 2px solid #AED16D;
+		/* box shadow values - offset-x | offset-y | blur-radius | spread-radius | rgb color and transparency */
+		box-shadow: -3px 3px 8px 3px rgba(188, 188, 188, .7);
+		margin: 0px 24px 500px 500px;
+}
+
+.aboutImage {
+	border-radius: 20%;
+}
+
+.footerNavigation {
+	display: flex;
+	align-items: center;
+	background-color: #FDF9F984;
+	height: 100px;
+	color: black;
+	
+}
+
+.footerItem {
+	padding: 0 16px;
+	
+}
+.footerItem a {
+	color:black;
+	
+}
+.footerItem a:hover {
+	outline: 1px dotted black;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+	.mainContent {
+		flex-direction: column;}
+	.uxnonprofitContent, .earthneticContent, .ftcContent {
+		width: 80%;
+			}
+	.Aboutme {
+		width: 80%;
+}
+	#leftsidebar {width: 200px; float: left;}
+	#main {margin-left: 216px;}
+  }
