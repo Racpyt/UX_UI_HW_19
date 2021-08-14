@@ -143,11 +143,44 @@ body {
 		border: 2px solid #AED16D;
 		/* box shadow values - offset-x | offset-y | blur-radius | spread-radius | rgb color and transparency */
 		box-shadow: -3px 3px 8px 3px rgba(188, 188, 188, .7);
-		margin: 0px 24px 500px 500px;
+		margin: 0px 24px 500px 800px;
 }
 
 .aboutImage {
 	border-radius: 20%;
+}
+
+.Java h2 {
+	font-size: 44px;
+	text-align: center;
+	}
+
+	.Java button{
+		height: 200px;
+		width: 200px;
+		border-radius: 100%;
+		background-color: #AED16D;
+		border: 10px solid #4CA66F;
+		box-shadow: 4px 4px 4px #999;
+		font-weight: bold;
+		font-size: 1.5em;
+		text-align: center;
+		vertical-align: middle;
+		color: white;
+		line-height: 100px;
+		margin: 0px 0px 500px 1000px;
+	
+}
+
+.Java button:hover {
+	background-color: #c7cfb9;
+    border: 10px solid #1d5e36;
+    color: black;
+}
+
+#test {
+	text-align: center;
+	font-size: 80px;
 }
 
 .footerNavigation {
